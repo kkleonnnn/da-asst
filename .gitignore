@@ -1,0 +1,34 @@
+# 敏感信息绝不入库
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials*
+*password*
+*token*
+
+# 真实业务数据（如需举例，先脱敏 / 用造数）
+data/raw/
+*.csv.real
+
+# 系统 / 编辑器杂物
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+
+# 本地 OCR 工具环境（PaddleOCR venv，体积大、不入库）
+.venv-ocr/
+inbox/_ocr/
+
+# 本地禁词清单（含真实来源词，绝不入库）
+scripts/.scrub_wordlist.local
+*.local
+
+# inbox 外部原始资料：整个目录都不入库（防止来源原文进公开仓库）。
+# 工作流是「原文留本地 → Claude 消化改写进 reference/ → 只提交脱敏后文本」。
+# 仅保留 inbox/README.md 作占位说明。
+inbox/*
+!inbox/README.md

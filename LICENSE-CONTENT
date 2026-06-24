@@ -1,0 +1,19 @@
+知识内容授权：Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+本仓库中的知识内容（`reference/` 目录、`通用知识包.md` 等文本）采用
+「知识共享 署名-相同方式共享 4.0 国际」许可协议（CC BY-SA 4.0）授权。
+
+许可全文： https://creativecommons.org/licenses/by-sa/4.0/legalcode
+通俗摘要： https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans
+
+你可以自由地：
+- 共享 —— 在任何媒介以任何形式复制、发行本作品
+- 演绎 —— 修改、转换或以本作品为基础进行创作
+
+只要你遵守下列条件：
+- 署名（BY）—— 给出适当的署名（仓库名 / 链接），提供指向本许可协议的链接，
+  同时标明是否（对原始作品）作了修改。
+- 相同方式共享（SA）—— 如果你再混合、转换或基于本内容进行创作，你必须
+  基于与原先相同的许可协议（CC BY-SA 4.0）分发你的贡献。
+
+注：本仓库的代码 / 脚本（`scripts/`）单独以 MIT 许可授权，见 LICENSE。
