@@ -37,6 +37,8 @@ ln -s "$(pwd)/da-asst" ~/.claude/skills/data-analysis-assistant   # 软链到个
 **④ 想投喂资料 / 贡献** → 见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
 > ⚠️ **关于"通用"**：「skill」是**运行环境（harness）的功能，不是模型的功能**。`SKILL.md` 的自动触发由 Claude 生态（Claude Code / claude.ai / Desktop / Agent SDK）支持——**ChatGPT、Gemini 等别家 App 不会自动识别 `SKILL.md`**。在非 Claude 模型上请走方式 ③：把 `通用知识包.md` 当知识库喂入；或在自建 agent 里自行写加载器（用 `description` 路由、注入正文与 `reference/`）。**内容本身与模型无关，任何模型都能读。**
+>
+> 另：想让**非 Claude 模型**也遵守本仓库的「**应答原则**」（回答方案 / 决策类问题时不铺平全套、保留你的判断权）？把 [`决策应答原则-可粘贴提示词.md`](决策应答原则-可粘贴提示词.md) 里那段整段粘进它的 system prompt 即可（Claude skill 触发时已自动生效，无需粘贴）。
 
 ---
 
